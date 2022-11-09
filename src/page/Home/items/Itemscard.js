@@ -8,12 +8,11 @@ const Itemscard = ({service}) => {
             <figure><img src={img} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
-                {/* <p className='text-2xl text-orange-600 font-semibold'>Price: ${price}</p> */}
+                <p className='text-2xl font-semibold'>Price: ${price}</p>
                 <div className="card-actions justify-end">
-                    <Link to={`/check/${_id}`}>
-                        <button className="btn btn-primary">Buy Now</button>
+                    <Link to={`/review/${_id}`}>
+                        <button className="btn btn-primary">Details</button>
                     </Link>
-
 
                 </div>
             </div>

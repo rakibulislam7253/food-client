@@ -1,12 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const Header = () => {
+    const { user, logout } = useContext(AuthContext)
 
+    const handellogout = () => {
+        logout()
+            .then(() => { })
+            .catch(error => console.error(error))
+    }
     const menuItems = <>
-    <li className='font-semibold'><Link to='/'>Home</Link></li>
-    {/* <li className='font-semibold'><Link to='/login'>Login</Link></li> */}
-</>
+        <li className='font-semibold'><Link to='/'>Home</Link></li>
+        <li className='font-semibold'><Link to='/blog'>Blog</Link></li>
+
+    </>
     return (
         <div className="navbar bg-base-100 bg-slate-800 text-white">
             <div className="navbar-start">
@@ -18,15 +27,36 @@ const Header = () => {
                        
                     </ul> */}
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <Link to={'/'} className="btn btn-ghost normal-case text-xl">Food service</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
-                  {menuItems}
+                    {menuItems}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Get started</a>
+                {
+                    user?.uid ?
+                        <>
+                            <img className='rounded-circle image' src={user.photoURL} alt="" />
+                            <button onClick={handellogout} className='mx-2 btn btn-outline-primary' >Logout</button>
+
+                        </>
+
+                        :
+                        <>
+                            <Link className='textdecoration  mx-2 btn btn-outline-warning' to={'/login'}>Login</Link>
+                            {/* <Link className='textdecoration mx-2  btn btn-outline-warning' to={'/register'}  >Register</Link> */}
+                            {/* <Button variant="outline-warning"> <Link to={'/login'}>Login</Link> </Button>
+                                        <Button variant="outline-warning"> <Link to={'/register'}>Register</Link> </Button> */}
+                            <FaUser></FaUser>
+
+
+
+                        </>
+
+                }
+                {/* <Link to='/login' className="btn">Login</Link> */}
             </div>
         </div>
     );
