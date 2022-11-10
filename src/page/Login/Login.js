@@ -3,45 +3,45 @@ import React from 'react';
 import { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import img from '../../assets/images/login/login.svg';
-import {  FaGoogle, } from "react-icons/fa";
+import { FaGoogle, } from "react-icons/fa";
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const Login = () => {
-    const navigate=useNavigate()
-const {login,providerlogin}=useContext(AuthContext)
-const googleauth = new GoogleAuthProvider()
+    const navigate = useNavigate()
+    const { login, providerlogin } = useContext(AuthContext)
+    const googleauth = new GoogleAuthProvider()
 
-const location = useLocation()
-    
-const from = location.state?.from?.pathname || '/';
+    const location = useLocation()
 
-const handelgoogle = () => {
+    const from = location.state?.from?.pathname || '/';
 
-    providerlogin(googleauth)
-        .then(result => {
-            const user = result.user
-            console.log(user)
-            navigate(from,{replace:true })
-        })
-        .catch(error => {
-            console.error(error)
-        })
-}
+    const handelgoogle = () => {
 
-    const handleLogin = event =>{
+        providerlogin(googleauth)
+            .then(result => {
+                const user = result.user
+                console.log(user)
+                navigate(from, { replace: true })
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }
+
+    const handleLogin = event => {
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
         const password = form.password.value;
 
-       login(email, password)
-        .then(result => {
-            const user = result.user;
-            form.reset()
-            console.log(user);
-            navigate(from,{replace:true })
-        })
-        .catch(err => console.error(err));
+        login(email, password)
+            .then(result => {
+                const user = result.user;
+                form.reset()
+                console.log(user);
+                navigate(from, { replace: true })
+            })
+            .catch(err => console.error(err));
     }
 
     return (
@@ -72,7 +72,7 @@ const handelgoogle = () => {
                             <input className="btn btn-primary" type="submit" value="Login" />
                         </div>
                         <div className='mt-4'>
-                        <button onClick={handelgoogle} className="btn btn-outline btn-warning text-black"><FaGoogle></FaGoogle> Login with google</button>
+                            <button onClick={handelgoogle} className="btn btn-outline btn-warning text-black"><FaGoogle></FaGoogle> Login with google</button>
                         </div>
                     </form>
                     <p className='text-center'>New to Genius Car <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link> </p>

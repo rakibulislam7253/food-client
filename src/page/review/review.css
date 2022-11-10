@@ -4,9 +4,15 @@
 }
 .width
 {
-    width: 400px;
+    width: 500px;
     height: auto;
     padding: 10px;
     border-radius: 10px;
 
+}
+.display
+
+{
+    display: flex;
+    justify-content: space-between;
 }

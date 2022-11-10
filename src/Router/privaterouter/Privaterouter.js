@@ -7,7 +7,7 @@ const Privaterouter = ({ children }) => {
     const location=useLocation()
     if(loading)
     {
-       return <p>Loading...</p>
+       return <div className="radial-progress text-primary" style={{"--value":70}}>70%</div>
     }
 
     if (!user) {

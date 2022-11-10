@@ -2,18 +2,26 @@ import React, { useContext, useEffect, useState } from 'react';
 import './review.css'
 import { Link, useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
+import Comments from './Comments';
 
 const Review = () => {
     const { user } = useContext(AuthContext)
     const reviewdetails = useLoaderData()
     const { service_id, _id, title, img, description } = reviewdetails
     const [comment, setcomment] = useState([])
+    const [commentmod, setcommentmod] = useState([])
     useEffect(() => {
         fetch(`http://localhost:4000/comment?service_id=${service_id}`)
             .then(res => res.json())
             .then(data => setcomment(data))
         console.log(comment)
     }, [])
+
+
+
+   
+
+
     const handelreview = (event) => {
         event.preventDefault();
         const form = event.target;
@@ -84,15 +92,14 @@ const Review = () => {
 
             {
                 comment.map(comments =>
-                    <p key={comments._id}>
+                    <Comments key={comments._id}
+                        comments={comments}>
 
-
-                        <div className='width bg-gray-100 my-4'>
-                            <p className='font-semibold'> {comments.name}</p>
-                            {comments.comment}
-                        </div>
-                    </p>)
+                    </Comments>)
             }
+
+
+            
             <form onSubmit={handelreview} >
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
@@ -112,9 +119,9 @@ const Review = () => {
                             :
                             <>
 
-                                <input name="name" type="text" placeholder="Full Name" defaultValue={user?.displayName} className="input input-ghost w-full  input-bordered"  />
+                                <input name="name" type="text" placeholder="Full Name" defaultValue={user?.displayName} className="input input-ghost w-full  input-bordered" />
                                 <br />
-                                <input name="email" type="text" placeholder="Your email" defaultValue={user?.email} className="input input-ghost w-full  input-bordered"  />
+                                <input name="email" type="text" placeholder="Your email" defaultValue={user?.email} className="input input-ghost w-full  input-bordered" />
                                 <br />
                                 <textarea name="message" className="textarea textarea-bordered h-24 w-full" placeholder="Your Message" required></textarea>
                                 <br />
