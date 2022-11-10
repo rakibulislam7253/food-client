@@ -1,14 +1,15 @@
 [
     {
-        
         "service_id": "04",
         "title": "Chicken-Biryani",
         "img": "https://funcooking.co.uk/wp-content/uploads/2018/02/Chicken-Biryani-78.jpg",
         "price": "20.00",
-
-        "sort_descrip":" ",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        
+        "pic1": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGh1bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "comment1": "It's really yummy ",
+        "pic2": "https://images.unsplash.com/photo-1546019170-f1f6e46039f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGh1bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "comment2": "Average...",
+        "sort_descrip": "special chicken biriyani with less oil and light ingrididents....",
+        "description": "Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and usually some type of meat or in some cases without any meat, and sometimes, in addition, eggs and potatoes. ",
         "facility": [
             {
                 "name": "Instant Car Services",
@@ -29,12 +30,16 @@
         ]
     },
     {
-        
         "service_id": "05",
-        "title": "italiya-picca-food",
+        "title": "italiyan-pizza-food",
         "img": "https://img3.goodfon.com/wallpaper/nbig/c/ab/eda-italiya-picca-food-italy.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "pic1": "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGh1bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "comment1": "not good enough!",
+        "pic2": "https://images.pexels.com/photos/1136575/pexels-photo-1136575.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment2": "average taste",
+        "sort_descrip": "yummy cheesy pizza with sausage and chicken....",
+        "description": "Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.",
         "facility": [
             {
                 "name": "Instant Car Services",
@@ -55,12 +60,16 @@
         ]
     },
     {
-        
         "service_id": "01",
-        "title": "Wages",
+        "title": "Wadges",
         "img": "https://i.ytimg.com/vi/9o4GQfhsKdA/maxresdefault.jpg",
         "price": "200.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "pic1": "https://images.pexels.com/photos/167964/pexels-photo-167964.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment1": "so testy...",
+        "pic2": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment2": "average taste,masala less",
+        "sort_descrip": "crispy potato wadges with yummy masala and white sauce....",
+        "description": "Potato wedges are irregular wedge-shaped slices of potato, often large and unpeeled, that are either baked or fried. They are sold at diners and fast food restaurants. In Australia, potato wedges are a common bar food, that are almost always served with some kind of sauce",
         "facility": [
             {
                 "name": "Instant Car Services",
@@ -81,12 +90,16 @@
         ]
     },
     {
-        
         "service_id": "02",
         "title": "Soup",
         "img": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_01/1398669/food-today-180219-main4.jpg",
         "price": "150.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "pic1": "https://images.pexels.com/photos/1755385/pexels-photo-1755385.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment1": "It's really yummy!!! ",
+        "pic2": "https://images.pexels.com/photos/1585634/pexels-photo-1585634.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment2": "yummm!so creamy",
+        "sort_descrip": "creamy thai soup serve with pron,chicken and masroom....",
+        "description": "Soup is a primarily liquid food, generally served warm or hot (but may be cool or cold), that is made by combining ingredients of meat or vegetables with stock, milk, or water. Hot soups are additionally characterized by boiling solid ingredients in liquids in a pot until the flavors are extracted, forming a broth.",
         "facility": [
             {
                 "name": "Instant Car Services",
@@ -107,12 +120,16 @@
         ]
     },
     {
-        
         "service_id": "03",
         "title": "Vorta",
         "img": "https://i.ytimg.com/vi/JlXaUHCODOY/maxresdefault.jpg",
         "price": "30.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "pic1": "https://images.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment1": "quality was so good!",
+        "pic2": "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment2": "my favorite & so testy",
+        "sort_descrip": "mashed ingredients are used to make vorta....",
+        "description": "bharta is a lightly fried mixture of mashed vegetables,chicken,fish,capsicum,onion,garlic.very yummy to taste with white rice",
         "facility": [
             {
                 "name": "Instant Car Services",
@@ -133,12 +150,16 @@
         ]
     },
     {
-      
         "service_id": "06",
         "title": "khichury",
         "img": "https://i.ytimg.com/vi/1L4ise7ytHY/maxresdefault.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "pic1": "https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment1": "It's really yummy!!! ",
+        "pic2": "https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "comment2": "i don't like it!",
+        "sort_descrip": "khicury with mixed vegetable tastes so yummy....",
+        "description": "Khichdi or khichri is a dish in South Asian cuisine made of rice and lentils with numerous variations. Variations include bajra and mung dal khichri. In Indian culture, in several regions, especially in the northern areas, it is considered one of the first solid foods that babies eat. ",
         "facility": [
             {
                 "name": "Instant Car Services",

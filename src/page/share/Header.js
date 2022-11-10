@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
-
+import'./hrader.css'
 const Header = () => {
     const { user, logout } = useContext(AuthContext)
 
@@ -46,9 +46,7 @@ const Header = () => {
                         :
                         <>
                             <Link className='textdecoration  mx-2 btn btn-outline-warning' to={'/login'}>Login</Link>
-                            {/* <Link className='textdecoration mx-2  btn btn-outline-warning' to={'/register'}  >Register</Link> */}
-                            {/* <Button variant="outline-warning"> <Link to={'/login'}>Login</Link> </Button>
-                                        <Button variant="outline-warning"> <Link to={'/register'}>Register</Link> </Button> */}
+                           
                             <FaUser></FaUser>
 
 
