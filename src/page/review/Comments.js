@@ -2,14 +2,14 @@ import React, { useContext } from 'react';
 import AuthProvider from '../../context/AuthProvider/AuthProvider';
 
 const Comments = ({ comments, modify }) => {
-    const{user}=useContext(AuthProvider)
+  
     const { _id, name, comment } = comments
     
    
     const handeldelete = id => {
         const process = window.confirm('are you sure your comment  delete?')
         if (process) {
-            fetch(`http://localhost:4000/comment?email=${user.email}`, {
+            fetch(`http://localhost:4000/comment${_id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Items = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:4000/services')
+        fetch('http://localhost:4000/three')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
