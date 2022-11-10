@@ -17,13 +17,13 @@ const Banner = () => {
                     </div>
                     <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-1/4">
                         <h1 className='text-6xl font-bold text-white'>
-                            Affordable <br />
-                            Price for Food <br />
-                            Servicing
+                            we Assure <br />
+                            Healthy <br />
+                            Food
                         </h1>
                     </div>
                     <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-24 top-1/2">
-                        <p className='text-xl text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <p className='text-xl text-white'>Food is health,we concern about your health and provide our best for you.</p>
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full BannerItem">
@@ -38,13 +38,13 @@ const Banner = () => {
 
                     <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-1/4">
                         <h1 className='text-6xl font-bold text-white'>
-                            Affordable <br />
-                            Price for Food <br />
-                            Servicing
+                            Good Taste <br />
+                            With Good <br />
+                            Quality
                         </h1>
                     </div>
                     <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-24 top-1/2">
-                        <p className='text-xl text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <p className='text-xl text-white'>Food is health,we concern about your health and provide our best for you.</p>
                     </div>
                 </div>
                 <div id="slide3" className="carousel-item relative w-full BannerItem">
@@ -58,16 +58,16 @@ const Banner = () => {
                     </div>
                     <div className="absolute flex justify-end transform -translate-y-1/2 left-24 top-1/4">
                         <h1 className='text-6xl font-bold text-white'>
-                            Affordable <br />
-                            Price for Food <br />
-                            Servicing
+                            Delicious Food <br />
+                            with Authentic <br />
+                            ingridients
                         </h1>
                     </div>
                     <div className="absolute flex justify-end transform -translate-y-1/2 w-2/5 left-24 top-1/2">
-                        <p className='text-xl text-white'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+                        <p className='text-xl text-white'>Food is health,we concern about your health and provide our best for you.</p>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     );
